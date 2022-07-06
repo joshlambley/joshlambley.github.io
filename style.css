@@ -97,6 +97,7 @@ nav a {
     font-size: 3.7rem;
     text-decoration: none;
     color: darkgray;
+    z-index: 100;
     
 }
 
