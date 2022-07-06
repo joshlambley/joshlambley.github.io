@@ -295,8 +295,8 @@ nav a:hover {
     align-items: center;
     color: white; 
     background-color: black;
-    height: 2.6rem;
-    width: 8rem;
+    height: 2.3rem;
+    width: 7rem;
     border-radius: 25px;
 }
 
@@ -406,9 +406,9 @@ nav a:hover {
 .contact .email {
     color: white; 
     background-color: black;
-    height: 1.4rem;
+    height: 1.2rem;
     padding: 1rem;
-    width: 8rem;
+    width: 7.5rem;
     border-radius: 25px;
 }
 
