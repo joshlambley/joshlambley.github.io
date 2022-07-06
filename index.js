@@ -34,7 +34,13 @@ function setup() {
     const h4 = document.querySelector("h4");
     observer.observe(h4);
 
+    const li = document.querySelectorAll("li");
+    li.forEach (li => observer.observe(li));
+
     const paras = document.querySelectorAll("p");
     paras.forEach (p => observer.observe(p));
+
+    // const img = document.getElementsByClassName("img-1");
+    // img.forEach (img-1 => observer.observe(img-1));
     
 }
