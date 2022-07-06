@@ -197,8 +197,8 @@ nav a:hover {
     justify-content: center;
     align-content: center;
     margin-top: 5rem;
-    margin-left: 14%;
-    margin-right: 14%;
+    /* margin-left: 14%;
+    margin-right: 14%; */
     line-height: 2rem;
 
 }
@@ -207,6 +207,12 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.projects p {
+    margin-left: 14%;
+    margin-right: 14%;
 }
 
 .projects h2 {
@@ -216,10 +222,13 @@ nav a:hover {
 
 .projects .skills {
     margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projects ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10%;
     justify-content: center;
     align-content: center;
@@ -249,16 +258,18 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     background-color: #F5F5F5;
-    width: 100%;
+    width: 85%;
     height: auto;
     min-height: 20rem; 
     text-align: center;
     margin-bottom: 9rem;
+    padding-bottom: 2rem;
 }
+
 
 #img {
     margin: 1rem auto 1rem auto;
-    width: 95%;
+    width: 96%;
     height: auto;
     object-fit: contain;
     text-align: center;
@@ -510,7 +521,7 @@ h1, h4, li {
         align-content: center;
         align-items: center;
         list-style: square;
-        font-size: 1.2rem; 
+        font-size: 1.5rem; 
         margin: 0 10%; 
     }
 
@@ -694,7 +705,7 @@ h1, h4, li {
 
     .projects ul {
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         gap: 10%;
         justify-content: center;
         justify-items: center;
