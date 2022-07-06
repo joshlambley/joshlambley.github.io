@@ -94,12 +94,16 @@ nav ul {
 
 nav a {
     font-weight: 200;
-    font-size: 3.7rem;
+    font-size: 4rem;
     text-decoration: none;
     color: darkgray;
-    z-index: 100;
+    z-index: 1000;
     
 }
+
+/* nav li {
+    z-index: 100;
+} */
 
 nav a:hover {
     opacity: 75%;
