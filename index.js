@@ -40,7 +40,7 @@ function setup() {
     const paras = document.querySelectorAll("p");
     paras.forEach (p => observer.observe(p));
 
-    // const img = document.getElementsByClassName("img-1");
-    // img.forEach (img-1 => observer.observe(img-1));
+    // const img = document.getElementsByClassName("img");
+    // img.forEach (img-1 => observer.observe(img));
     
 }
