@@ -72,12 +72,23 @@ header h3 {
     margin-left: 10%;
 }
 
-header a {
-    margin: 1rem;
-    font-weight: 400;
-    margin-left: 10%;
+header .homebtn {
+    font-weight: 900;
+    justify-content: flex-start;
+    align-items: center;
     display: flex;
+    background: transparent;
+    border: 0;
+    width: 9rem;
 }
+
+header a {
+    font-weight: 900;
+    margin-left: 4.5%;
+    display: flex;
+    text-decoration: none;
+}
+
 
 nav {
     position: fixed;
@@ -163,6 +174,7 @@ nav a:hover {
     width: 15rem;
     height: 15rem;   
 }
+
 
 /* about section */
 /*  */
@@ -284,6 +296,7 @@ nav a:hover {
 }
 
 
+
 #img {
     margin: 1rem auto 1rem auto;
     width: 96%;
@@ -359,7 +372,60 @@ nav a:hover {
 .skill-list {
     margin-top: -1rem;
  margin-bottom: 10rem;
+ z-index: -1;
 }
+
+.skill-list li {
+    z-index: -1;
+}
+
+/* boxes */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    z-index: -1;
+}
+
+.boxes .box {
+    text-align: center;
+ background-color: #EAEAEA;
+ width: 30rem;
+ height: auto;
+ min-height: 13rem;
+ min-width: 17rem;
+ max-width: 35rem;
+ flex: 1;
+ margin: 4rem;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    padding: 0; margin: 0;
+    padding-top: 1rem;
+    font-weight: 900;
+}
+
+.box p {
+    margin: 1rem 1.5rem;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    z-index: 1;
+    
+}
+
+
 /* contact section */
 /*  */
 /*  */
@@ -452,34 +518,69 @@ nav a:hover {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: auto; 
-    padding-top: 1rem;
     background-color: black; 
-
 }
 
 
 footer h6 {
-    width: 100%;
+    padding: 0;
+    opacity: 60%;
+    width: auto;
  font-weight: 100;
- font-size: 0.8rem;
+ font-size: 0.9rem;
  color:#EAEAEA;
  display: flex;
  justify-content: center;
+ text-align: center;
  align-items: center;
  align-content: center;
- margin: 0.3rem auto;
 }
 
-footer h6 a {
+
+footer a {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer a:hover {
+    opacity: 100%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    width: 100%;
+    align-items: flex-start;   
+}
+
+
+footer .footer-link {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: flex-start;
+    color: white;
+    opacity: 60%;
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0;
+    width: auto;
 }
+
+#footer-cont {
+    margin: 1rem;
+    margin-left: 10%;
+    padding: 0;
+}
+
+
 
 
 h2 {
@@ -727,7 +828,15 @@ h1, h4, li {
 
         
     }
+
+    .boxes {
+        margin-bottom: 0;
+    }
     
+    .boxes .box {
+     margin: 1.5rem;
+     
+    }
 
     .contact .email {
         color: white; 
@@ -742,22 +851,26 @@ h1, h4, li {
  
         font-weight: 100;
         font-size: 0.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-       
+        margin: 0;
        }
 
        footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
         width: 100%;
-        height: 8rem; 
+        height: auto; 
         background-color: black; 
+    }
+
+    footer .footer-link {
+       
+        font-size: 0.6rem;
+        font-weight: 100;
+        
+    }
+
+    #footer-cont {
+        margin: 0.5rem;
+    margin-left: 10%;
     }
 
        
