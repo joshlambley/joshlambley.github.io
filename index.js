@@ -14,7 +14,7 @@ navLinks.forEach(link => {
 window.addEventListener('DOMContentLoaded' ,setup);
 function setup() {
     const options = {
-        rootMargin:"0px 0px -170px 0px"
+        rootMargin:"0px 0px -100px 0px"
     }
 
     const observer = new IntersectionObserver((entries, observer) => {

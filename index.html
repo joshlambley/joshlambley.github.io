@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/026ce2a294.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -33,39 +34,63 @@
 
 
      <div class="container-1">
-        <img class="img" src="IMG_3539.PNG" alt="">
+       <img data-aos="fade-up"
+       data-aos-offset="150"
+       data-aos-duration="800"
+       data-aos-easing="ease-in-out"
+       data-aos-once="true" class="img" src="joshsquare v2.png" alt="">
+      <div class="intro-text">
       <h1>Hello, I'm Josh Lambley</h1>
       <h4>I'm a frontend developer based in the United Kingdom.</h4>
-      <i class="fa-solid fa-code fa-fade" style="--fa-animation-duration: 3s; --fa-fade-opacity: 0.4;" ></i>
+      <!-- <a class="workwithme" href="#contact"><h4>Work with me</h4></a> -->
+      <!-- <i class="fa-solid fa-code fa-fade" style="--fa-animation-duration: 3s; --fa-fade-opacity: 0.4;" ></i> -->
+      </div>
      </div>
 
      <div class="about" id="about">
         <h2>About</h2>
-        <p>Hi there, I'm Josh, a frontend developer from the United Kingdom. I've been into web development since the start of 2022, honing my skills online. The languages I speak are HTML, CSS, Javascript and I know a tiny bit of Python. I use VS code as my primary editor and use a Macbook Pro. I like to spend my free time learning, writing music, playing video games and playing tennis. </p>
+        <p>Hi there, I'm Josh, a frontend developer and creative from the United Kingdom. I love creating enjoyable UI/UX experiences with minimalistic intuitive deisgn. I've been into web development since the start of 2022, honing my skills online. The languages I speak are HTML, CSS, Javascript and I know a tiny bit of Python. I use VS code as my primary editor and use a Macbook Pro. I like to spend my free time learning, writing music, playing video games and playing tennis. </p>
      </div>
 
     <div class="projects" id="projects">
          <h2>Projects</h2>
          <p>Whoa you're early! I haven't got any projects to show you right now other than this website... Sorry about that! Come back soon to see what I've been working on, or if you really can't wait then please contact me and I'll show you some projects that are currently under construction. I've added a few place holders for now, these will be updated soon...</p>
          <div class="img-container">
-             <div id="img" class="img-1">
-               <img id="img" src="google.png" alt="">
+
+             <div data-aos="fade-up"
+             data-aos-offset="200"
+             data-aos-delay="50"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true" id="img" >
+               <img class="img-1" id="img" src="google.png" alt="">
                <a href="https://www.google.co.uk/" target="_blank"><h5>Google</h5></a>
                
              </div>
              
 
-             <div id="img" class="img-2">
-               <img id="img" src="apple.png" alt="">
+             <div data-aos="fade-up"
+             data-aos-offset="200"
+             data-aos-delay="50"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true" id="img">
+               <img class="img-2" id="img"  src="apple.png" alt="">
                <a href="https://www.apple.com" target="_blank"><h5>Apple</h5></a>
              </div>
 
-             <div id="img" class="img-3">
-                <img id="img" src="nike.png" alt=""> 
+             <div data-aos="fade-up"
+             data-aos-offset="200"
+             data-aos-delay="50"
+             data-aos-duration="1000"
+             data-aos-easing="ease-in-out"
+             data-aos-once="true" id="img">
+                <img class="img-3" id="img" src="nike.png" alt=""> 
                 <a href="https://www.nike.com/gb/" target="_blank"><h5>Nike</h5></a>
               </div>
 
          </div>
+    </div>
          
          <div id="skills">
          <h2 class="skills">Skills</h2>
@@ -78,17 +103,19 @@
              <p id="skills-list"> Terminal<i class="fa-solid fa-terminal"></i></p>
           </div>
         </div>
-    </div>
+    
     <div class="boxes">
-      <div class="box">
+      <div  class="box">
          <h3>Coding</h3>
          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae qui eius velit veritatis, dolores nobis eaque esse vel nemo recusandae natus dolor ipsam corrupti suscipit explicabo est necessitatibus laboriosam sunt.</p>
       </div>
-      <div class="box">
+
+      <div  class="box">
         <h3>Design</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus vero asperiores at eligendi quod officia aliquam consectetur, ea illum dolor expedita ipsam aperiam, consequatur laudantium magnam sint vel consequuntur.</p>
       </div>
-      <div class="box">
+
+      <div  class="box">
         <h3>SEO</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus vero asperiores at eligendi quod officia aliquam consectetur, ea illum dolor expedita ipsam aperiam, consequatur laudantium magnam sint vel consequuntur.</p>
       </div>
@@ -98,10 +125,25 @@
     <div class="contact" id="contact">
         <h2>Contact</h2>
         <p>Please feel free to get in touch with me if to talk business or if you just have a question, I'll always get back to you!</p>
-        <a href="mailto:lambley.josh@gmail.com" class="email">Send Email</a>  
+        <a data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true" href="mailto:lambley.josh@gmail.com" class="email">Send Email</a>  
         <div class="socials">
-            <a href="https://twitter.com/josh_lambleydev" target="_blank"><i class="fa-brands fa-twitter-square fa-3x"></i></a>
-            <a href="https://github.com/joshlambley" target="_blank"><i class="fa-brands fa-github-square fa-3x"></i></a>
+            <a data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true" href="https://twitter.com/josh_lambleydev" target="_blank"><i class="fa-brands fa-twitter-square fa-3x"></i></a>
+            <a data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true" href="https://github.com/joshlambley" target="_blank"><i class="fa-brands fa-github-square fa-3x"></i></a>
     </div>
 
  <footer> 
@@ -118,5 +160,11 @@
  
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
 </body>
 </html>
