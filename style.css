@@ -378,10 +378,10 @@ nav a:hover {
 #img {
     text-align: center;
     border-radius: 15px;
-    width: 60%;
+    width: 50%;
     height: auto;
     min-height: 10rem;
-    min-width: 22rem;
+    min-width: 28rem;
     /* max-width: 40rem;  */
     justify-content: center;
     align-items: center;
@@ -393,6 +393,7 @@ nav a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     z-index: 1;
+    
 }
 
 #img h5 {
@@ -401,7 +402,7 @@ nav a:hover {
     text-align: center;
     width: auto;
     display: inline-block;
-    margin: 0 1rem 0 1rem;
+    margin: 1rem 1rem 0 1rem;
     vertical-align: top;
     text-align: center; 
     justify-content: center;
@@ -430,6 +431,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;  
     border: 2px solid black; 
+    /* filter: drop-shadow(-20px 10px 0px #A149FA); */
 }
 
 
@@ -439,6 +441,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;  
     border: 2px solid black;
+    /* filter: drop-shadow(-20px 10px 0px #A149FA); */
 }
 
 .img-3 {
@@ -447,6 +450,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid black;
+    /* filter: drop-shadow(-20px 10px 0px #A149FA); */
 }
 
 #skills {
@@ -524,6 +528,7 @@ nav a:hover {
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
+ filter: drop-shadow(-20px 12px 0px #A149FA);
  
 }
 
@@ -621,7 +626,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    color: black;  
+    color: black; 
 }
 
 .socials a {
@@ -746,7 +751,7 @@ h1, h4 {
 
 @media only screen and (max-width:1024px) {
     .contact p {
-       font-size: 0.8rem;
+       font-size: 1rem;
     }
 
     /* #img{
@@ -980,6 +985,10 @@ h1, h4 {
     .contact {
         padding: 0;
     }
+
+    .contact p {
+        font-size: 1rem;
+     }
 
     .contact .email {
         color: white; 
