@@ -41,7 +41,7 @@ header {
     padding: 0;
 }
 
-header .btn {
+header .navigation-button {
     width: 4rem;
     color: black;
     background-color: white;
@@ -78,6 +78,7 @@ header a {
     font-weight: 900;
     margin-left: 4.5%;
     display: flex;
+    
     text-decoration: none;
 }
 
@@ -128,7 +129,7 @@ nav a:hover {
     transform: translateX(0);
 }
 
-.nav-open .btn {
+.nav-open .navigation-button {
     position: fixed;
 }
 
@@ -236,7 +237,7 @@ nav a:hover {
     width: 100%;
     /* margin-left: 14%;
     margin-right: 14%; */
-    line-height: 2rem;
+    /* line-height: 2rem; */
     background-color: black;
     padding: 10vh 0;
     z-index: -1;
@@ -282,7 +283,7 @@ nav a:hover {
     /* margin-top: 5rem; */
     /* margin-left: 14%;
     margin-right: 14%; */
-    line-height: 2rem;
+    /* line-height: 2rem; */
     /* padding-bottom: 5rem; */
     padding: 10vh 0;
     
@@ -453,10 +454,6 @@ nav a:hover {
     /* filter: drop-shadow(-20px 10px 0px #A149FA); */
 }
 
-#skills {
-
-}
-
 .skills {
     margin: 0;
     /* padding-top: 2rem; */
@@ -528,13 +525,12 @@ nav a:hover {
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
- /* filter: drop-shadow(-18px 10px 0px #A149FA);
- z-index: 2; */
+ filter: drop-shadow(-10px 6px 0px #A149FA);
+ z-index: 2;
  
 }
 
 .box h3 {
-    /* color: white; */
     font-size: 1.5rem;
     padding: 0; margin: 0;
     padding-top: 1rem;
@@ -542,7 +538,6 @@ nav a:hover {
 }
 
 .box p {
-    /* color: white; */
     margin: 1rem 1.5rem;
     word-wrap: break-word;
     display: flex;
@@ -551,12 +546,6 @@ nav a:hover {
     z-index: 1;
     font-size: 1.2rem;
 }
-
-.boxes p {
-    /* color: white; */
-    /* opacity: 70%; */
-}
-
 
 /* contact section */
 /*  */
@@ -613,9 +602,11 @@ nav a:hover {
     width: 7.5rem;
     border-radius: 25px;
     text-decoration: none;
+    transition: 0ms;
 }
 
-.email:hover {
+#contact .email:hover {
+    transition:0ms;
     opacity: 80%;
 }
 
@@ -646,9 +637,6 @@ footer {
     width: 100%;
     height: auto; 
     background-color: black; 
-    /* background-image: repeating-linear-gradient(45deg, #101010 0, #101010 2px, transparent 0, transparent 50%);
-background-size: 32px 32px;
-background-color: #000000; */
 }
 
 
@@ -918,9 +906,7 @@ h1, h4 {
     }
 
     #img{
-        width: ;
         min-width: 16rem;
-        margin: ;
     }
 
     #img h5 {
