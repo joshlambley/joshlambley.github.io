@@ -525,8 +525,8 @@ nav a:hover {
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
- filter: drop-shadow(-10px 6px 0px #A149FA);
- z-index: 2;
+ /* filter: drop-shadow(-10px 6px 0px #A149FA);
+ z-index: 2; */
  
 }
 
