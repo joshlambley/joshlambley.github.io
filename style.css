@@ -34,14 +34,14 @@ header {
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
     border: 1px solid #F5F5F5;
     z-index: 1000;
     margin: 0;
     padding: 0;
+    background-color: #FFF;
 }
 
-header .navigation-button {
+header .btn {
     width: 4rem;
     color: black;
     background-color: white;
@@ -129,7 +129,7 @@ nav a:hover {
     transform: translateX(0);
 }
 
-.nav-open .navigation-button {
+.nav-open .btn {
     position: fixed;
 }
 
@@ -181,20 +181,6 @@ nav a:hover {
     opacity: 80%;
 }
 
-.workwithme h4 {
-    background-color: #A149FA;
-    font-size: 2vw;
-    width: auto;
-    min-height: 2rem;
-    border-radius: 65px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-    margin-top: -2rem;
-    
-}
 
 .container-1 a {
     text-decoration: none;
@@ -208,15 +194,7 @@ nav a:hover {
     font-weight: 500;
 }
 
-.workwithme {
-    z-index: 1000;
-}
-
 .container-1 .img {
-    /* width: 22rem;
-    height: 22rem; 
-    max-width: 22rem; 
-    max-height: 22rem; */
     width: 25vw;
     height: 25vw;
     background-color: #A149FA;
@@ -349,6 +327,7 @@ nav a:hover {
     margin: auto;
     align-items: center;
     justify-content: center;
+
     background-color: white;
     width: auto;
     max-width: 100%;
@@ -382,8 +361,8 @@ nav a:hover {
     width: 50%;
     height: auto;
     min-height: 10rem;
-    min-width: 28rem;
-    /* max-width: 40rem;  */
+    min-width: 30rem;
+    max-width: 50rem; 
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -398,7 +377,7 @@ nav a:hover {
 }
 
 #img h5 {
-    font-weight: 300;
+    font-weight: 700;
     font-size: 1.5rem;
     text-align: center;
     width: auto;
@@ -408,10 +387,10 @@ nav a:hover {
     text-align: center; 
     justify-content: center;
     align-items: center;
-    color: white; 
-    background-color: #A149FA;
+    color: black;
+    /* background-color: #A149FA; */
     height: 2.3rem;
-    width: 7rem;
+    width: auto;
     border-radius: 25px;
     padding: 0;
 }
@@ -423,6 +402,23 @@ nav a:hover {
 #img h5 a {
     text-decoration: underline;
 }
+
+
+/* change this back to hover */
+/*  */
+
+#img a {
+    display: flex;
+    justify-content: center;
+}
+
+#img a:hover {
+    opacity: 60%;
+    border-radius: 15px;
+    width: 99%;
+}
+
+/*  */
 
 
 .img-1 {
@@ -465,7 +461,7 @@ nav a:hover {
     font-weight: 900;
 }
 
-.skills p {
+#skills p {
     text-align: center;
     font-size: 1.2rem;
 }
@@ -809,27 +805,10 @@ h1, h4 {
 
     #img {
         margin: 0.8rem auto 0.8rem auto;
+        max-width: 40%;
         
     }
 
-
-    #img h5 {
-        font-weight: 300;
-        font-size: 1rem;
-        text-align: center;
-        width: auto;
-        display: inline-block;
-        margin: 0 1rem 0 1rem;
-        vertical-align: top;
-        text-align: center; 
-        justify-content: center;
-        align-items: center;
-        color: white; 
-        background-color: #A149FA;
-        height: 2.2rem;
-        width: 6rem;
-        border-radius: 25px;
-    }
 
     #skills-list {
         
@@ -906,12 +885,18 @@ h1, h4 {
     }
 
     #img{
-        min-width: 16rem;
+
+        min-width: 15rem;
+        
+    }
+
+    #img a:hover {
+        background-color: transparent;
     }
 
     #img h5 {
-        font-weight: 300;
-        font-size: 0.8rem;
+        
+        font-size: 1.2rem;
         text-align: center;
         width: auto;
         display: inline-block;
@@ -920,12 +905,13 @@ h1, h4 {
         text-align: center; 
         justify-content: center;
         align-items: center;
-        color: white; 
-        background-color: #A149FA;
+
         height: 2rem;
-        width: 4.2rem;
+        width: auto;
         border-radius: 25px;
     }
+
+    
 
     .projects .skills {
         margin-top: 5rem;
